@@ -1,0 +1,15 @@
+{
+  "name": "AngularJS",
+  "version": "1.0.0",
+  "description":
+    "An AngularJS starter for Codesandbox that uses react-scripts just for building",
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/new",
+  "main": "src/index.js",
+  "dependencies": {
+    "angular": "1.6.9"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.0"
+  }
+}

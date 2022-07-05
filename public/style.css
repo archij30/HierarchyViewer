@@ -1,0 +1,42 @@
+.hierarchy-container {
+  display: flex;
+  flex-direction: column;
+}
+.hierarchy {
+  position: absolute;
+  /* left: 100%; */
+  /* transform: translateX(-50%); */
+}
+
+.intersection-marker {
+  height: 1rem;
+  background-color: yellow;
+  z-index: 999;
+}
+
+.node {
+  height: 3rem;
+  width: 3rem;
+  background-color: aquamarine;
+  padding: 1rem;
+  margin: 1rem;
+  position: relative;
+}
+
+.node-container {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px red;
+}
+
+.children {
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.children-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  /* transform: translateX(-25%); */
+}
